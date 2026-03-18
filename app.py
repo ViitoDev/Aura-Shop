@@ -6,4 +6,5 @@ app = Flask(__name__)
 def main():
     return "Hello World!"
 
-app.run(debug=True)
+if __name == '__main__':
+    app.run(debug=True)
